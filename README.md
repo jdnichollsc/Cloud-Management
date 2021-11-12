@@ -385,3 +385,5 @@ Lo mismo ocurre con aplicaciones en la nube, pero los pilares son:
 ![Circuit Breaker](https://user-images.githubusercontent.com/2154886/141416851-6e161d68-a350-43c8-877e-b6d2d3b86270.png)
 
 ![Circuit Breaker Fallbacks](https://user-images.githubusercontent.com/2154886/141416922-b4bbbe06-9b3a-45c3-816f-ea042177fdeb.png)
+
+![Redundancia en el despliegue](https://user-images.githubusercontent.com/2154886/141417616-7876659f-e98f-4c27-b2c7-60ab9593a58b.png)
