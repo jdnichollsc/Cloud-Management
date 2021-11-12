@@ -371,3 +371,9 @@ Lo mismo ocurre con aplicaciones en la nube, pero los pilares son:
 ![Alcance de los Fallos](https://user-images.githubusercontent.com/2154886/141416068-82ec43be-4d7e-4c1f-93eb-bb2dac6cad6f.png)
 
 ![Manejo de errores temporales y Fallos duraderos](https://user-images.githubusercontent.com/2154886/141416153-6ffbec2f-0922-427e-898f-f010ed09b62d.png)
+
+![Retry Policy](https://user-images.githubusercontent.com/2154886/141416319-30879f65-8e99-45b8-b241-3bded1ea61e7.png)
+
+![Web Request Latency](https://user-images.githubusercontent.com/2154886/141416430-98a3e5fd-946d-4631-943d-07961650b622.png)
+
+![Muestra de normas de reintentos](https://user-images.githubusercontent.com/2154886/141416527-d5e022d4-5de7-4f7c-9f8b-3cac3bcccd68.png)
