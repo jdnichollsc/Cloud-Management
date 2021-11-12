@@ -349,3 +349,25 @@ Lo mismo ocurre con aplicaciones en la nube, pero los pilares son:
 ![Time to market y agilismo](https://user-images.githubusercontent.com/2154886/141414744-fb371874-0e16-4bc6-a806-48eacb140513.png)
 
 ![Carga de trabajo](https://user-images.githubusercontent.com/2154886/141414845-37b600dc-f902-48b9-89a5-2b5dd5a1bea6.png)
+
+## DISEÑANDO PARA FALLOS
+
+![Descomposición de una E-Commerce](https://user-images.githubusercontent.com/2154886/141415057-0d86956d-d696-4749-ba4b-8d9561212aed.png)
+
+![Descomposición por carga de trabajo](https://user-images.githubusercontent.com/2154886/141415217-9468f3c8-2acf-4cc9-a0bc-2759f129a01d.png)
+
+![Alta disponibilidad](https://user-images.githubusercontent.com/2154886/141415329-042e925c-c944-4352-93f0-8fcfccbdd837.png)
+
+![Los 9s](https://user-images.githubusercontent.com/2154886/141415410-5b23de46-b3be-40a7-9b60-4ef17f91b85e.png)
+
+![Calculando el ANS (SLA)](https://user-images.githubusercontent.com/2154886/141415520-54267ceb-dfe9-4826-a8c2-089542a04781.png)
+
+![SLA para servicios externos](https://user-images.githubusercontent.com/2154886/141415642-370f2241-3f55-43a4-a871-e1991bb81e1d.png)
+
+![Define tus propios acuerdos de nivel de servicio](https://user-images.githubusercontent.com/2154886/141415714-a2dfa7e4-db10-4b21-b4eb-a068ac7d8afa.png)
+
+![Diseño para fallos](https://user-images.githubusercontent.com/2154886/141415927-20e262c1-bbbc-4c06-9150-5142c92efb81.png)
+
+![Alcance de los Fallos](https://user-images.githubusercontent.com/2154886/141416068-82ec43be-4d7e-4c1f-93eb-bb2dac6cad6f.png)
+
+![Manejo de errores temporales y Fallos duraderos](https://user-images.githubusercontent.com/2154886/141416153-6ffbec2f-0922-427e-898f-f010ed09b62d.png)
