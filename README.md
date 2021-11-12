@@ -307,6 +307,5 @@ Permite que podamos acercar a los usuarios la información que necesiten proporc
 
 ![Características de Windows Azure Caching](https://user-images.githubusercontent.com/2154886/141412939-a97a7cad-551b-4078-91e4-edee1a270983.png)
 
-![Ventajas de Windows Azure Caching](https://user-images.githubusercontent.com/2154886/141413027-2b9db220-f56f-4b9e-bb14-df17959211e6.png)
-
+![Ventajas de Windows Azure Caching](https://user-images.githubusercontent.com/2154886/141413129-4e8c0162-c61b-4abc-b836-4a37949c9637.png)
 
