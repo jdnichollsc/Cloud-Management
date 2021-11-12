@@ -175,3 +175,17 @@ Para crear una máquina virtual tenemos 2 opciones:
 - **VMs en un Cloud Service** Se ejecutará junto con otras máquinas virtuales. Recomendable para una aplicación de múltiples Niveles (Interfaz Web, Negocio, Base de Datos). Comparten la misma dirección IP pública. Beneficio del Balance de carga de trabajo proporcionado por Windows Azure, permitiendo que las peticiones de los Usuarios sean atendidas por todas las máquinas virtuales en el grupo.
 
 ![Agrupamiento de Máquinas Virtuales: Cloud Services](https://user-images.githubusercontent.com/2154886/141400483-d3c582c8-e0a4-40df-8793-d82812cb71bd.png)
+
+Las Máquinas virtuales en el grupo pueden comunicarse entre ellas sobre la red local del Centro de datos de Windows Azure, de igual forma las MVs en el mismo Cloud Service pueden ser agrupadas en uno o más conjuntos de disponibilidad. Al agrupar las MVs en un  conjunto o grupo de disponibilidad Windows Azure distribuye las máquinas virtuales a través del Centro de Datos para que estas no sean ubicadas en el mismo Servidor o incluso en el mismo Rack de Servidores (en el mismo dominio de fallo), por lo cual si alguno de los Servidores o Rack de Servidores en el Centro de Datos llega a fallar no se vería afectado el funcionamiento del Cloud Service al estar disponible en las otras máquinas virtuales en los otros Servidores físicos (Otro dominio de fallo).
+
+### Escenario de Uso
+- **Máquinas Virtuales para desarrollo y pruebas**
+Los desarrolladores pueden hacer uso de Máquinas Virtuales con configuraciones específicas para crear aplicaciones de manera sencilla y económica, utilizarlas y eliminarlas cuando ya no sean requeridas.
+- **Ejecución de aplicaciones en la nube**
+Ejecutar aplicaciones en la nube cuando exista alta demanda de ellas es un ahorro económico. Como estan en la Nube se pueden crear cuando se necesiten y eliminarlas cuando ya no son requeridas.
+- **Extensión del Centro de Datos propio hacia la nube**
+Con Windows Azure podemos crear redes virtuales para hacer que las máquinas virtuales en la Nube aparezcan como parte de nuestra propia red corporativa, esto permite que aplicaciones como SharePoint puedan ser utilizadas en nuestra empresa de una manera sencilla y económica sin tener que realizar grandes inversiones en nuestro Centro de Datos
+- **Recuperación de Desastres**
+Si nuestro Centro de Datos deja de funcionar por algún desastre podemos crear máquinas virtuales en la Nube para ejecutar aplicaciones esenciales y detenerlas cuando nuestro Centro de Datos vuelva a funcionar.
+
+![Ejecutando una aplicación con SQL Server](https://user-images.githubusercontent.com/2154886/141400821-5d86d46c-5c02-4d52-abf6-96fa32dee32e.png)
