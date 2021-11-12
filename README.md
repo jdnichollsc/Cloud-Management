@@ -290,7 +290,7 @@ Para adicionar durabilidad podemos activar la replicación geográfica **Geo Red
 
 ![Uso de Service Bus](https://user-images.githubusercontent.com/2154886/141412150-2bda68b6-3847-4d4f-8dd0-9277c6a2b0af.png)
 
-![Estilos de Comunicación](https://user-images.githubusercontent.com/2154886/141412242-042956e8-d276-406d-9e09-48c51632301c.png)
+![Estilos de Comunicación](https://user-images.githubusercontent.com/2154886/141413293-ee3fac0e-13b5-4975-9373-685c937af47f.png)
 
 ![Windows Azure Service Bus](https://user-images.githubusercontent.com/2154886/141412470-a52e4fdd-62bf-421b-a505-03bdf90e22ce.png)
 
@@ -309,3 +309,4 @@ Permite que podamos acercar a los usuarios la información que necesiten proporc
 
 ![Ventajas de Windows Azure Caching](https://user-images.githubusercontent.com/2154886/141413129-4e8c0162-c61b-4abc-b836-4a37949c9637.png)
 
+![Ventajas de Windows Azure Caching](https://user-images.githubusercontent.com/2154886/141413526-ca8cf39e-9977-4e3f-b501-71615e0ff6e2.png)
