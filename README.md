@@ -204,3 +204,6 @@ Con una instancia SQL Database fácilmente se puede provisionar y desplegar solu
 No proporciona a cada cliente su propia instancia física de SQL Server, proporciona un servicio de múltiples inquilinos con un Servidor Lógico de Base de Datos SQL para cada cliente, por lo tanto todos los clientes comparten las capacidades de cómputo y almacenamiento que el servicio proporciona. Todos los datos son almacenados en 3 distintos Servidores del Centro de Datos, proporcionando una alta disponibilidad.
 
 ![SQL DATABASE](https://user-images.githubusercontent.com/2154886/141401220-a85b5ccf-49ab-49eb-ace6-00e997fb6902.png)
+
+**SQL Data Sync** permite replicar datos entre distintos centros de datos de Windows Azure o entre centros de datos Microsoft Azure y servidores SQL Server on-premises.
+
