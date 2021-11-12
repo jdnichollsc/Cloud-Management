@@ -106,3 +106,38 @@ Pueden existir copias de las aplicaciones para proporcionar un balance de las pe
 
 ![Métodos de publicación Soportados](https://user-images.githubusercontent.com/2154886/141398602-e7dcff05-dd5c-4df9-a128-f614c6da53c4.png)
 
+2. **SERVICIOS EN LA NUBE (CLOUD SERVICES) -> PaaS**
+
+Podemos ejecutar aplicaciones y sus datos, podemos establecer reglas de firewall o redes virtuales. Proporciona servicios de cómputo en una plataforma como servicio, soportando aplicaciones escalables, confiables y económicas en su operación. Los desarrolladores no se tienen que preocupar de administrar la plataforma de sus aplicaciones.
+
+> Cloud Service = Código + Configuración
+
+### Componentes de un Cloud Service
+- **Archivo de definición del servicio (.csdef)**
+Define el modelo del servicio, incluyendo el número de roles.
+- **Archivo de configuración del servicio (.cscfg)**
+Proporciona valores de configuración para Cloud Service y para roles individuales, incluyendo el número de instancias de los roles.
+- **Paquete del Servicio (.cspkg)**
+Contiene el código de la aplicación y el archivo de definición del servicio.
+
+### Cloud Service Role
+Compuesto por los archivos de la aplicación y los archivos de configuración.
+
+- **Web Role para aplicaciones Front-End**
+Una aplicación que va a interactuar con el Usuario. Proporciona un servidor web IIS dedicado para hospedar aplicaciones web.
+- **Worker Role para aplicaciones Back-End**
+Las aplicaciones pueden ejecutar tareas largas de forma asíncrona e independiente de la interacción con el usuario. Similares a los servicios Windows tradicionales.  
+
+### Cloud Services
+
+Se basa en máquinas virtuales, la tecnología ofrece 2 opciones. Un rol puede tener muchas instancias definidas en el archivo de configuración del servicio.
+
+- **Instancias Web Role**
+Máquina virtual sobre la cual el código de la aplicación junto con su configuración se esta ejecutando. Cada instancia ejecuta una variante de Windows Server con IIS.
+
+- **Instancias Worker Role**
+Se ejecutan en la misma variante de Windows Server sin IIS.
+
+Al crear un **Cloud Service** se pueden definir varios roles para distribuir el procesamiento de una aplicación de **N-Niveles** o **N-Capas** permitiendo un escalamiento flexible de la misma. Cada una de las **Máquinas Virtuales** tiene su propia dirección IP dentro del Centro de Datos de Microsoft, esta se conoce como una **dirección IP directa**. Las peticiones se balancean a cada una de las máquinas virtuales, pero los usuarios acceden desde una **dirección pública virtual VIP** proporcionando tolerancia a fallos.
+
+![Cloud Services](https://user-images.githubusercontent.com/2154886/141399419-96ada37e-e31a-4063-adb8-7d31fc6db142.png)
