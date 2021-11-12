@@ -189,3 +189,18 @@ Con Windows Azure podemos crear redes virtuales para hacer que las máquinas vir
 Si nuestro Centro de Datos deja de funcionar por algún desastre podemos crear máquinas virtuales en la Nube para ejecutar aplicaciones esenciales y detenerlas cuando nuestro Centro de Datos vuelva a funcionar.
 
 ![Ejecutando una aplicación con SQL Server](https://user-images.githubusercontent.com/2154886/141400821-5d86d46c-5c02-4d52-abf6-96fa32dee32e.png)
+
+### Ejecutando una Granja de Sharepoint
+
+![Ejecutando una Granja de Sharepoint](https://user-images.githubusercontent.com/2154886/141400971-ece12f21-9e6a-4063-a49a-f628a3384667.png)
+
+**SharePoint** requiere **Active Directory**, la Organización crea controladores de dominio en la Nube utilizando Imágenes de Windows Server de la Galería o también se puede realizar On-Premise, pero debido a que SharePoint interactúa frecuentemente con el Active Directory es recomendable tener controladores de dominio en la Nube para un buen rendimiento.
+
+![Opciones de Almacenamiento](https://user-images.githubusercontent.com/2154886/141401089-4d3478eb-1107-4e51-aeab-458f4b3c58ea.png)
+
+1. **SQL DATABASE**
+Es una tecnología que nos permite administrar datos relacionales en una Plataforma como Servicio (Paas), proporciona un Sistema de Administración de Base de Datos Relacional DBMS para Windows Azure y esta basado sobre la tecnología SQL Server.
+Con una instancia SQL Database fácilmente se puede provisionar y desplegar soluciones de Bases de Datos Relacionales en la Nube y tomar ventaja de un Centro de Datos distribuido de Alta Disponibilidad, Escalabilidad, Seguridad y Confiabilidad.
+No proporciona a cada cliente su propia instancia física de SQL Server, proporciona un servicio de múltiples inquilinos con un Servidor Lógico de Base de Datos SQL para cada cliente, por lo tanto todos los clientes comparten las capacidades de cómputo y almacenamiento que el servicio proporciona. Todos los datos son almacenados en 3 distintos Servidores del Centro de Datos, proporcionando una alta disponibilidad.
+
+![SQL DATABASE](https://user-images.githubusercontent.com/2154886/141401220-a85b5ccf-49ab-49eb-ace6-00e997fb6902.png)
