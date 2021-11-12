@@ -141,3 +141,37 @@ Se ejecutan en la misma variante de Windows Server sin IIS.
 Al crear un **Cloud Service** se pueden definir varios roles para distribuir el procesamiento de una aplicación de **N-Niveles** o **N-Capas** permitiendo un escalamiento flexible de la misma. Cada una de las **Máquinas Virtuales** tiene su propia dirección IP dentro del Centro de Datos de Microsoft, esta se conoce como una **dirección IP directa**. Las peticiones se balancean a cada una de las máquinas virtuales, pero los usuarios acceden desde una **dirección pública virtual VIP** proporcionando tolerancia a fallos.
 
 ![Cloud Services](https://user-images.githubusercontent.com/2154886/141399419-96ada37e-e31a-4063-adb8-7d31fc6db142.png)
+
+### CARACTERÍSTICAS DE CLOUD SERVICES
+
+- Permiten crear aplicaciones y APIs de alta disponibilidad (99,95%) y escalabilidad infinita
+- Permiten centrarse en la aplicación y olvidarse de la infraestructura
+- Proporcionan dos ambientes: Ensayo y Producción
+- Permiten desarrollar APIs en internet para una amplia gama de dispositivos
+- Ayudan a crear arquitecturas de nubes modernas
+
+3. **MÁQUINAS VIRTUALES -> IaaS (Se paga por hora de Ejecución)**
+
+Tenemos la opción de seleccionar el Sistema Operativo, permite crear y utilizar máquinas virtuales en la nube. Es un servidor en la nube que puede ser controlado y administrado. Se pueden crear mediante el portal de administración de Windows Azure o mediante la API basada en Rest Windows Azure Service Management (Herramientas de Script en Windows, Linux y MAC).
+Para crear una máquina virtual se requiere seleccionar un disco duro virtual como imagen de la máquina virtual, estos son almacenados en el Blob de Windows Azure, una imagen es un disco duro virtual que se utiliza como plantilla para crear un nueva máquina virtual, es una plantilla porque no tiene una configuración especial (nombre de la computadora o la configuración de usuarios). Al crear una máquina virtual utilizando una imagen, un disco de SO es creado automáticamente para la nueva máquina virtual. 
+Para crear una máquina virtual también se puede utilizar un disco duro virtual que pueda servir de arranque y montarse como una versión de SO. Un disco es una versión de una imagen que puede ser ejecutado, después de que una imagen es provisionada esta se convierte en un **Disco**. 
+
+Para poder seleccionar un disco duro virtual tenemos 2 opciones:
+- Crear y subir hacia Windows Azure un archivo VHD que contiene la imagen
+- Utilizar algún disco duro virtual proporcionado por Microsoft por medio de la galería de máquinas virtuales
+
+Los discos duros de la galería incluyen Windows Server 2008 Release 2, Windows Server 2008 Release 2 con SQL Server y Windows Server 2012. La galería también contiene imágenes Linux(Suse, Ubuntu). Estos discos se viven actualizando, mas sin embargo al montar una máquina virtual nosotros somos los responsables de las actualizaciones de la misma
+
+![Windows Azure Virtual Machines](https://user-images.githubusercontent.com/2154886/141400022-ef92e598-9e08-4515-8d82-1eed05996357.png)
+
+![Tamaños de máquinas virtuales](https://user-images.githubusercontent.com/2154886/141400299-abd33629-def1-42c5-a938-23a89c183b68.png)
+
+### Tolerancia a fallas
+La plataforma inicia inmediatamente la misma máquina virtual en otro servidor si el actual falla.
+Los discos duros son replicados en uno o varios centros de datos.
+
+Para crear una máquina virtual tenemos 2 opciones:
+- **Standalone VMs** Una máquina virtual que se ejecuta de forma independiente. Cada máquina virtual tiene su propia dirección IP pública.
+- **VMs en un Cloud Service** Se ejecutará junto con otras máquinas virtuales. Recomendable para una aplicación de múltiples Niveles (Interfaz Web, Negocio, Base de Datos). Comparten la misma dirección IP pública. Beneficio del Balance de carga de trabajo proporcionado por Windows Azure, permitiendo que las peticiones de los Usuarios sean atendidas por todas las máquinas virtuales en el grupo.
+
+![Agrupamiento de Máquinas Virtuales: Cloud Services](https://user-images.githubusercontent.com/2154886/141400483-d3c582c8-e0a4-40df-8793-d82812cb71bd.png)
