@@ -377,3 +377,11 @@ Lo mismo ocurre con aplicaciones en la nube, pero los pilares son:
 ![Web Request Latency](https://user-images.githubusercontent.com/2154886/141416430-98a3e5fd-946d-4631-943d-07961650b622.png)
 
 ![Muestra de normas de reintentos](https://user-images.githubusercontent.com/2154886/141416527-d5e022d4-5de7-4f7c-9f8b-3cac3bcccd68.png)
+
+### Patrón: El Disyuntor
+
+![Patrón Disyuntor](https://user-images.githubusercontent.com/2154886/141416754-214ad575-69a8-40d8-a2ce-1ef6bfc88996.png)
+
+![Circuit Breaker](https://user-images.githubusercontent.com/2154886/141416851-6e161d68-a350-43c8-877e-b6d2d3b86270.png)
+
+![Circuit Breaker Fallbacks](https://user-images.githubusercontent.com/2154886/141416922-b4bbbe06-9b3a-45c3-816f-ea042177fdeb.png)
