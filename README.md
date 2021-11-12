@@ -207,3 +207,50 @@ No proporciona a cada cliente su propia instancia física de SQL Server, proporc
 
 **SQL Data Sync** permite replicar datos entre distintos centros de datos de Windows Azure o entre centros de datos Microsoft Azure y servidores SQL Server on-premises.
 
+![SQL Data Sync](https://user-images.githubusercontent.com/2154886/141405400-e1b2d062-88b4-41d0-aaeb-4118c7ff2c29.png)
+
+**Reportes en las Aplicaciones Windows Azure**
+
+![SQL Reporting](https://user-images.githubusercontent.com/2154886/141405537-376aecff-8a2b-482b-9a6b-c7b73f7b303b.png)
+
+**Agregando cuentas de inicio de sesión y de usuario**
+
+![Add loginuser](https://user-images.githubusercontent.com/2154886/141405922-16be3302-f2ad-4e4c-82ad-4a8e14cec1c2.png)
+
+**Copias de Base de Datos SQL Database**
+
+```
+create database newname 
+as copy of actualname 
+```
+
+> Los cambios que se hagan en nuestra base de datos durante el proceso de copiado se realizan también a la nueva base de datos.
+
+**Para Bajar de Windows Azure SQL Database a SQL Server - Copia de Seguridad**
+1. Click en Exportar. 
+2. Dejar que se cree cuenta de almacenamiento de Blob. 
+3. No habilitar replicación geográfica. 
+4. En SQL Server, Databases, Click derecho, Import Data-Tier Application. 
+5. Obtenemos los Datos de conexión en Administrar Claves del almacenamiento. 
+6. Eliminar Blob para no incurrir en costos de consumo.
+
+2. **LOCAL STORAGE**
+Proporciona un área temporal de almacenamiento para una instancia de una aplicación, ejecutándose como un Cloud Service. El área de almacenamiento temporal es un directorio de sistema de archivos de la instancia de la aplicación y sólo es accesible por esa instancia, cuando la instancia reinicia los datos de Local Storage pueden perderse.
+
+3. **WINDOWS AZURE STORAGE**
+Cada una puede contener hasta 100 Terabytes de datos y por defecto se tiene hasta un límite de 5 cuentas de almacenamiento por suscripción (Se pueden pedir más). Es el más alto nivel de espacios de nombres. Proporciona almacenamiento perdurable a través de 3 principios principales:
+
+- **BLOB STORAGE**
+Proporciona un almacenamiento económico para almacenar grandes cantidades de información binaria, tales como archivos de vídeo, audio e imágenes.
+
+![Blob Storage](https://user-images.githubusercontent.com/2154886/141408039-654ae5b9-3fe5-4681-9037-920cda738464.png)
+
+![Componentes del Blob Storage](https://user-images.githubusercontent.com/2154886/141408214-4edecb24-0777-46b7-a345-4883c8625a0d.png)
+
+![Block Blob](https://user-images.githubusercontent.com/2154886/141408429-a5956458-e8f4-49a6-9ba4-70523c523db4.png)
+
+![Page Blob](https://user-images.githubusercontent.com/2154886/141408642-684358c2-610c-4479-aaa4-173b1b95a84a.png)
+
+- **TABLE STORAGE**
+Ofrece funcionalidad NoSQL a un bajo costo para aplicaciones sin requisitos de acceso a datos de una gran complejidad.
+
