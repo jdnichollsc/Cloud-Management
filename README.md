@@ -296,3 +296,17 @@ Para adicionar durabilidad podemos activar la replicación geográfica **Geo Red
 
 ![Service Bus Development](https://user-images.githubusercontent.com/2154886/141412529-53776237-1842-4c8e-a9a2-a3e8d1049b81.png)
 
+
+## CACHING
+
+Permite que podamos acercar a los usuarios la información que necesiten proporcionándoles una gran experiencia de respuesta en cualquier parte del mundo. Los servicios de almacenamiento en caché de Windows Azure permiten construir aplicaciones altamente responsivas y escalables mediante el acercamiento de los datos a los usuarios que lo necesitan. Windows Azure también proporciona caché en memoria que permite almacenar los datos de la aplicación en memoria para mejorar el rendimiento, el tiempo de respuesta y la escalabilidad.
+
+![Windows Azure Caching](https://user-images.githubusercontent.com/2154886/141412776-7ac5e1b3-fa1a-43bf-9000-60162e460f1f.png)
+
+![Topologías de Despliegue](https://user-images.githubusercontent.com/2154886/141412857-bcd69e1e-9d0d-47ca-87c2-84f0baded4f9.png)
+
+![Características de Windows Azure Caching](https://user-images.githubusercontent.com/2154886/141412939-a97a7cad-551b-4078-91e4-edee1a270983.png)
+
+![Ventajas de Windows Azure Caching](https://user-images.githubusercontent.com/2154886/141413027-2b9db220-f56f-4b9e-bb14-df17959211e6.png)
+
+
