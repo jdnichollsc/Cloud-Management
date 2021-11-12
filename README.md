@@ -310,3 +310,42 @@ Permite que podamos acercar a los usuarios la información que necesiten proporc
 ![Ventajas de Windows Azure Caching](https://user-images.githubusercontent.com/2154886/141413129-4e8c0162-c61b-4abc-b836-4a37949c9637.png)
 
 ![Ventajas de Windows Azure Caching](https://user-images.githubusercontent.com/2154886/141413526-ca8cf39e-9977-4e3f-b501-71615e0ff6e2.png)
+
+![Opciones configurables de caché](https://user-images.githubusercontent.com/2154886/141413635-3ad95ae6-3133-4b11-a926-d980493c1fa7.png)
+
+## CDN
+
+![CDN](https://user-images.githubusercontent.com/2154886/141413894-7be887c3-899e-44c9-a944-c8b2a87f02e8.png)
+
+![Nodos CDN](https://user-images.githubusercontent.com/2154886/141413969-9a4e591b-116f-41dd-bb17-0ba638e5fb7c.png)
+
+![Beneficios del uso de CDN](https://user-images.githubusercontent.com/2154886/141414029-39006a8f-3713-4398-8117-b50ad6f70b46.png)
+
+## ARQUITECTURAS DE ALTA RESISTENCIA Y ESCALABILIDAD PARA LA NUBE
+
+### Objetivos
+
+El diseño de servicios a gran escala de alta resistencia y escalabilidad requiere elegir cuidadosamente su diseño y arquitectura.
+
+## PROBLEMAS Y DESAFÍOS
+
+### Teorema de CAP (Brewer)
+
+Establece que es imposible para un Sistema de Cómputo distribuido garantizar simultáneamente 3 áreas:  
+- La consistencia
+- La disponibilidad
+- La tolerancia a fallos
+Según el teorema un sistema puede tener no más de 2 de estas características simultáneamente.
+Lo mismo ocurre con aplicaciones en la nube, pero los pilares son:
+
+![Escalabilidad, Conocimiento y Disponibilidad](https://user-images.githubusercontent.com/2154886/141414304-32f6aaee-6598-4e88-a91d-4abaebebbfc1.png)
+
+![Objetivos Principales](https://user-images.githubusercontent.com/2154886/141414401-c0a21091-992b-4089-9216-397eb762b1ff.png)
+
+![Diseño de aplicaciones](https://user-images.githubusercontent.com/2154886/141414486-d92083a5-ab25-4b9b-91bb-a6de44b2e5b7.png)
+
+![Diseño con servicios especializados](https://user-images.githubusercontent.com/2154886/141414597-17434d53-0e6b-4b4d-8c0a-89e6d16cd15f.png)
+
+![Time to market y agilismo](https://user-images.githubusercontent.com/2154886/141414744-fb371874-0e16-4bc6-a806-48eacb140513.png)
+
+![Carga de trabajo](https://user-images.githubusercontent.com/2154886/141414845-37b600dc-f902-48b9-89a5-2b5dd5a1bea6.png)
