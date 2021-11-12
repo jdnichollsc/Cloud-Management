@@ -199,6 +199,7 @@ Si nuestro Centro de Datos deja de funcionar por algún desastre podemos crear m
 ![Opciones de Almacenamiento](https://user-images.githubusercontent.com/2154886/141401089-4d3478eb-1107-4e51-aeab-458f4b3c58ea.png)
 
 1. **SQL DATABASE**
+
 Es una tecnología que nos permite administrar datos relacionales en una Plataforma como Servicio (Paas), proporciona un Sistema de Administración de Base de Datos Relacional DBMS para Windows Azure y esta basado sobre la tecnología SQL Server.
 Con una instancia SQL Database fácilmente se puede provisionar y desplegar soluciones de Bases de Datos Relacionales en la Nube y tomar ventaja de un Centro de Datos distribuido de Alta Disponibilidad, Escalabilidad, Seguridad y Confiabilidad.
 No proporciona a cada cliente su propia instancia física de SQL Server, proporciona un servicio de múltiples inquilinos con un Servidor Lógico de Base de Datos SQL para cada cliente, por lo tanto todos los clientes comparten las capacidades de cómputo y almacenamiento que el servicio proporciona. Todos los datos son almacenados en 3 distintos Servidores del Centro de Datos, proporcionando una alta disponibilidad.
@@ -241,6 +242,7 @@ Proporciona un área temporal de almacenamiento para una instancia de una aplica
 Cada una puede contener hasta 100 Terabytes de datos y por defecto se tiene hasta un límite de 5 cuentas de almacenamiento por suscripción (Se pueden pedir más). Es el más alto nivel de espacios de nombres. Proporciona almacenamiento perdurable a través de 3 principios principales:
 
 - **BLOB STORAGE**
+
 Proporciona un almacenamiento económico para almacenar grandes cantidades de información binaria, tales como archivos de vídeo, audio e imágenes.
 
 ![Blob Storage](https://user-images.githubusercontent.com/2154886/141408039-654ae5b9-3fe5-4681-9037-920cda738464.png)
@@ -252,5 +254,45 @@ Proporciona un almacenamiento económico para almacenar grandes cantidades de in
 ![Page Blob](https://user-images.githubusercontent.com/2154886/141408642-684358c2-610c-4479-aaa4-173b1b95a84a.png)
 
 - **TABLE STORAGE**
+
 Ofrece funcionalidad NoSQL a un bajo costo para aplicaciones sin requisitos de acceso a datos de una gran complejidad.
+
+![Table Storage](https://user-images.githubusercontent.com/2154886/141410649-4b0e1469-ded8-4a97-a27b-565cba533492.png)
+
+![Table Storage Partitions](https://user-images.githubusercontent.com/2154886/141410827-7d5ff340-bf89-46da-acaa-cf7bebaadef4.png)
+
+![Bases de datos no relacionales](https://user-images.githubusercontent.com/2154886/141410923-10269372-f8bf-4526-a7cc-f133443d66b9.png)
+
+![Tablas](https://user-images.githubusercontent.com/2154886/141411045-99e44106-01a3-4c62-a1b8-a80641e63dfb.png)
+
+![Entidades](https://user-images.githubusercontent.com/2154886/141411161-ee2f9d0d-1795-412c-ac8f-ec948a85707c.png)
+
+![Propiedades](https://user-images.githubusercontent.com/2154886/141411275-796c8779-e30c-44c7-b687-d91aa547a06f.png)
+
+![Particiones](https://user-images.githubusercontent.com/2154886/141411363-9cdf9937-d54e-4faa-a476-46281a30e9f1.png)
+
+Una partición es capaz de atender 500 transacciones por segundo. Una Tabla con un buen particionamiento puede procesar miles de peticiones por segundo.
+
+![Propiedades de una partición](https://user-images.githubusercontent.com/2154886/141411553-de430990-971c-4895-8a5e-2a80fc8b831f.png)
+
+- **QUEUE STORAGE**
+
+![Queue Storage](https://user-images.githubusercontent.com/2154886/141411652-c53ec449-fd63-44af-88c7-28c5c02d9188.png)
+
+> Para los 3 servicios es necesario crear una cuenta de Almacenamiento Storage Account. Los Datos pueden ser accedidos mediante APIs de código administrado o REST.
+
+**Grupo de afinidad**: es un agrupamiento geográfico para despliegue de Cloud Services y Cuentas de Almacenamiento en Windows Azure. Al estar nuestros Servicios dentro del mismo Centro de Datos se evitan costos de **ancho de banda** porque no generan tráfico entre distintos Centros de Datos. Puede mejorar el rendimiento del servicio al ubicar las cargas de trabajo de los Servidores en el mismo Centro de Datos o cerca de los clientes que lo requieran.
+
+**Windows Azure** proporciona redundancia local de almacenamiento, **Locally Redundant Storage o LRS** la cual permite alta durabilidad y disponibilidad de almacenamiento dentro de una simple ubicación. En la redundancia local los datos son replicados 3 veces dentro del mismo centro de Datos, en Windows Azure todo el almacenamiento es localmente redundante.
+Para adicionar durabilidad podemos activar la replicación geográfica **Geo Redundant Storage o GRS** la cual proporciona protección de los datos al replicarlos en una ubicación secundaria de la misma región, esto permite una tolerancia a fallos en caso de que la aplicación primaria tenga algún problema. GRS es implementada mediante una característica llamada **Geo-Replication**.
+
+![Windows Azure Service Bus](https://user-images.githubusercontent.com/2154886/141412023-31360e5f-c3b4-4250-9173-b4f0a9ce3d9a.png)
+
+![Uso de Service Bus](https://user-images.githubusercontent.com/2154886/141412150-2bda68b6-3847-4d4f-8dd0-9277c6a2b0af.png)
+
+![Estilos de Comunicación](https://user-images.githubusercontent.com/2154886/141412242-042956e8-d276-406d-9e09-48c51632301c.png)
+
+![Windows Azure Service Bus](https://user-images.githubusercontent.com/2154886/141412470-a52e4fdd-62bf-421b-a505-03bdf90e22ce.png)
+
+![Service Bus Development](https://user-images.githubusercontent.com/2154886/141412529-53776237-1842-4c8e-a9a2-a3e8d1049b81.png)
 
