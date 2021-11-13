@@ -387,3 +387,12 @@ Lo mismo ocurre con aplicaciones en la nube, pero los pilares son:
 ![Circuit Breaker Fallbacks](https://user-images.githubusercontent.com/2154886/141416922-b4bbbe06-9b3a-45c3-816f-ea042177fdeb.png)
 
 ![Redundancia en el despliegue](https://user-images.githubusercontent.com/2154886/141417616-7876659f-e98f-4c27-b2c7-60ab9593a58b.png)
+
+![Failure Points](https://user-images.githubusercontent.com/2154886/141605368-03d2b2ed-9f97-4afb-9ca1-5609c7a02eea.png)
+
+![Failure Modes](https://user-images.githubusercontent.com/2154886/141605433-5fda3c02-9053-4749-bf96-931b001873df.png)
+
+![Ejemplos de Modos de Falla](https://user-images.githubusercontent.com/2154886/141605493-8820481e-644a-418b-aa4c-ba4490944c66.png)
+
+
+
