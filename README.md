@@ -428,3 +428,23 @@ Como los Servicios Web, es importante tener monitoreo
 
 ![Unidades de Escalabilidad](https://user-images.githubusercontent.com/2154886/141606863-b221666c-bbf3-4253-ad5e-2caf053ee77c.png)
 
+![Workloads](https://user-images.githubusercontent.com/2154886/141607091-1fe95f75-2081-485e-b9f0-973cb01b8e58.png)
+
+![Partición de Datos](https://user-images.githubusercontent.com/2154886/141607136-6fb6b6d8-b102-4126-ba68-83d0e7019677.png)
+
+![Las 3Vs](https://user-images.githubusercontent.com/2154886/141607217-3c40cdd1-e93f-4598-bf8d-834512540252.png)
+
+![Capacidad de consulta](https://user-images.githubusercontent.com/2154886/141607310-29b2d4a1-33d6-425f-8158-68dec930413d.png)
+
+![Partición horizontal](https://user-images.githubusercontent.com/2154886/141607388-80ede364-376f-4447-887a-dec9d1294511.png)
+
+![Partición vertical](https://user-images.githubusercontent.com/2154886/141607434-e4319cc7-ece8-4f70-b5cf-d5083e5c3d03.png)
+
+![Partición hibrida](https://user-images.githubusercontent.com/2154886/141607461-1e426cc3-b7f5-4dcb-a585-f1ef8e571e61.png)
+
+![Windows Azure Caching](https://user-images.githubusercontent.com/2154886/141607516-3b0a759e-8b79-414c-a2c2-76ef8c00ff64.png)
+
+![CDN](https://user-images.githubusercontent.com/2154886/141607564-dd5b5bb9-1be8-4002-afb2-6070eb92decb.png)
+
+![Azure Cache](https://user-images.githubusercontent.com/2154886/141607618-1320e9da-9bed-4e58-b85d-220f2e38439c.png)
+
