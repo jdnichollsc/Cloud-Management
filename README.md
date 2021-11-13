@@ -404,4 +404,20 @@ Como los Servicios Web, es importante tener monitoreo
 
 ![Capturando la información con C#](https://user-images.githubusercontent.com/2154886/141606101-ef294ac3-bf5b-41f4-9389-1c16f85f4482.png)
 
+![Opciones de telemetría](https://user-images.githubusercontent.com/2154886/141606154-884f5271-0dc9-4c95-ae59-6d51a7e6e15b.png)
 
+## DISEÑANDO PARA ENTENDER LA APP
+
+![Diseñando para entender la aplicación](https://user-images.githubusercontent.com/2154886/141606201-535aa966-4e98-48b6-9df6-2d96747a8f57.png)
+
+![Definir ALM](https://user-images.githubusercontent.com/2154886/141606285-78892ea7-1b29-4079-9ba9-7176f295592a.png)
+
+![Actualizando la configuración](https://user-images.githubusercontent.com/2154886/141606342-4a4d88d3-528b-4d51-a817-95df5e5d4738.png)
+
+![Actualizando los servicios](https://user-images.githubusercontent.com/2154886/141606402-66f197ff-3d4b-4359-b246-f168edd6f767.png)
+
+![Health model](https://user-images.githubusercontent.com/2154886/141606532-0aacecf4-b5fa-45a7-8a26-0b0364988400.png)
+
+![Flujo de trabajo para la solución de problemas](https://user-images.githubusercontent.com/2154886/141606584-2fe8af92-57c1-40ed-9d92-f713e41928a5.png)
+
+![Arquitectura a prueba de fallos](https://user-images.githubusercontent.com/2154886/141606657-73ffaf1f-a0da-4c0d-b451-2daeef29f617.png)
