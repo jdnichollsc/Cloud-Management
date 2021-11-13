@@ -448,3 +448,12 @@ Como los Servicios Web, es importante tener monitoreo
 
 ![Azure Cache](https://user-images.githubusercontent.com/2154886/141607618-1320e9da-9bed-4e58-b85d-220f2e38439c.png)
 
+## CONECTIVIDAD
+
+Extender una red local para incluir servicios hospedados en Windows Azure y servidores locales a través de las redes virtuales de Windows Azure. Windows Azure Traffic Manager se emplea para administrar y equilibrar la cantidad de tráfico entrante.
+
+1. **Red Virtual**:
+
+Windows Azure Virtual Network proporciona enlaces seguros con una infraestructura local. Los administradores de infraestructura pueden extender redes locales hacia la nube con control sobre la topología de red incluyendo configuración de DNS y rangos de direcciones IP para las máquinas virtuales.
+
+![Windows Azure Virtual Network](https://user-images.githubusercontent.com/2154886/141607897-25f3b3de-7265-4e6b-836b-5b8dfbb60f78.png)
