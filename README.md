@@ -395,4 +395,13 @@ Lo mismo ocurre con aplicaciones en la nube, pero los pilares son:
 ![Ejemplos de Modos de Falla](https://user-images.githubusercontent.com/2154886/141605493-8820481e-644a-418b-aa4c-ba4490944c66.png)
 
 
+## DISEÑANDO PARA OPERACIONES
+
+Tener una visibilidad de los sistemas que se están ejecutando, esto mediante la telemetría.
+Como los Servicios Web, es importante tener monitoreo
+
+![Capturando la información sobre el servicio](https://user-images.githubusercontent.com/2154886/141605965-cd28a939-3437-45a9-a74c-9712ac259d1b.png)
+
+![Capturando la información con C#](https://user-images.githubusercontent.com/2154886/141606101-ef294ac3-bf5b-41f4-9389-1c16f85f4482.png)
+
 
