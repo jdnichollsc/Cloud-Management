@@ -424,6 +424,7 @@ Como los Servicios Web, es importante tener monitoreo
 
 ## DISEÑANDO PARA ESCALAR
 
-![Escalabilidad](https://user-images.githubusercontent.com/2154886/141606747-55c7735b-a37b-4bad-971a-1747d5ff4838.png)
+![Escalabilidad](https://user-images.githubusercontent.com/2154886/141606825-8678f1fe-9f82-4ac2-a712-73b829878982.png)
 
+![Unidades de Escalabilidad](https://user-images.githubusercontent.com/2154886/141606863-b221666c-bbf3-4253-ad5e-2caf053ee77c.png)
 
