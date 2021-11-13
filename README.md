@@ -457,3 +457,14 @@ Extender una red local para incluir servicios hospedados en Windows Azure y serv
 Windows Azure Virtual Network proporciona enlaces seguros con una infraestructura local. Los administradores de infraestructura pueden extender redes locales hacia la nube con control sobre la topología de red incluyendo configuración de DNS y rangos de direcciones IP para las máquinas virtuales.
 
 ![Windows Azure Virtual Network](https://user-images.githubusercontent.com/2154886/141607897-25f3b3de-7265-4e6b-836b-5b8dfbb60f78.png)
+
+![Principales usos](https://user-images.githubusercontent.com/2154886/141608000-d19759c7-dbb1-4c03-9a0e-ff951e681408.png)
+
+![Características soportadas por Virtual Network](https://user-images.githubusercontent.com/2154886/141608077-caca91f4-ee7d-464c-87aa-660740deeb4f.png)
+
+![Beneficios](https://user-images.githubusercontent.com/2154886/141608426-65d82b40-f0ea-4fc6-8541-abc70b59be27.png)
+
+
+2. **Windows Azure Traffic Manager**
+
+Traffic Manager es una solución para balance de carga de trabajo que permite la distribución de tráfico entrante de diferentes Cloud Services en una Suscripción de Windows Azure independientemente de su ubicación física.
