@@ -421,3 +421,9 @@ Como los Servicios Web, es importante tener monitoreo
 ![Flujo de trabajo para la solución de problemas](https://user-images.githubusercontent.com/2154886/141606584-2fe8af92-57c1-40ed-9d92-f713e41928a5.png)
 
 ![Arquitectura a prueba de fallos](https://user-images.githubusercontent.com/2154886/141606657-73ffaf1f-a0da-4c0d-b451-2daeef29f617.png)
+
+## DISEÑANDO PARA ESCALAR
+
+![Escalabilidad](https://user-images.githubusercontent.com/2154886/141606747-55c7735b-a37b-4bad-971a-1747d5ff4838.png)
+
+
