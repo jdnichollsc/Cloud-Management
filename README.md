@@ -487,5 +487,15 @@ Traffic Manager es una solución para balance de carga de trabajo que permite la
 
 ![Arquitectura](https://user-images.githubusercontent.com/2154886/141669291-c1a6107d-bc52-4759-8bb2-fc3d71a79631.png)
 
+![Modelo de Seguridad](https://user-images.githubusercontent.com/2154886/141669421-391256ea-8ad6-49f7-8ced-3aca25021bdd.png)
 
-![SSRS vs SQL Azure Reporting](https://user-images.githubusercontent.com/2154886/141669126-8c1291fa-4f9e-40ca-9a64-6b5c8732df8f.png)
+
+## IDENTITY
+
+La administración de acceso e identidad es una tarea importante tanto para administradores de sistema como desarrolladores de aplicaciones. Active Directory permite a los administradores utilizar el conjunto de servicios de Identidad incluyendo el proceso de inicio de sesión, autenticación y federación. Permite también realizar consultas sobre los objetos del directorio tales como usuarios y grupos, así como integrar Windows Azure Active Directory con Windows Server Active Directory ejecutándose On-Premise. Active Directory permite a los desarrolladores implementar un inicio de sesión único para las aplicaciones empresariales y del tipo Software como Servicio.
+
+![Windows Azure Active Directory](https://user-images.githubusercontent.com/2154886/141669541-16866e11-6668-4589-99c5-4abcbca7447f.png)
+
+**Windows Azure AD Graph** es un innovador gráfico social de empresa que proporciona una sencilla interfaz basada en Rest para obtener acceso a objetos tales como usuarios, grupos y roles con una vista de explorador que permite encontrar fácilmente la información y las relaciones, así como realizar operaciones CRUD. En el mundo On-premise accedemos mediante programación al Windows Server Active Directory utilizando Active Directory Service Interfaces o Bibliotecas ADO .NET, en la nube accedemos con programación al Windows Azure Active Directory utilizando Windows Azure Active Directory Graph.
+
+![Principales usos](https://user-images.githubusercontent.com/2154886/141669697-663c4950-e639-4dce-98ca-c60937b19598.png)
