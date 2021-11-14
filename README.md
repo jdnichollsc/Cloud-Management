@@ -468,3 +468,12 @@ Windows Azure Virtual Network proporciona enlaces seguros con una infraestructur
 2. **Windows Azure Traffic Manager**
 
 Traffic Manager es una solución para balance de carga de trabajo que permite la distribución de tráfico entrante de diferentes Cloud Services en una Suscripción de Windows Azure independientemente de su ubicación física.
+
+![Windows Azure Traffic Manager](https://user-images.githubusercontent.com/2154886/141665846-02dc2f3a-2c03-4182-9775-8a2b61944b60.png)
+
+![Métodos de balance de carga](https://user-images.githubusercontent.com/2154886/141665934-5f506f1e-6795-4f09-a433-b72466ae807b.png)
+
+![Usos de Traffic Manager](https://user-images.githubusercontent.com/2154886/141666013-be8f09fe-ef94-4991-b392-b60f4f3e5942.png)
+
+![Recursos de Traffic Manager](https://user-images.githubusercontent.com/2154886/141666044-cf72e8b0-a774-4571-9bc1-34767f0e68d5.png)
+
