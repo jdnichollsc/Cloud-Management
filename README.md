@@ -499,3 +499,7 @@ La administración de acceso e identidad es una tarea importante tanto para admi
 **Windows Azure AD Graph** es un innovador gráfico social de empresa que proporciona una sencilla interfaz basada en Rest para obtener acceso a objetos tales como usuarios, grupos y roles con una vista de explorador que permite encontrar fácilmente la información y las relaciones, así como realizar operaciones CRUD. En el mundo On-premise accedemos mediante programación al Windows Server Active Directory utilizando Active Directory Service Interfaces o Bibliotecas ADO .NET, en la nube accedemos con programación al Windows Azure Active Directory utilizando Windows Azure Active Directory Graph.
 
 ![Principales usos](https://user-images.githubusercontent.com/2154886/141669697-663c4950-e639-4dce-98ca-c60937b19598.png)
+
+Windows Azure Active Directory Access Control permite a los usuarios iniciar sesión con diferentes proveedores de identidad. Facebook, Google, Microsoft, etc.
+
+![Recursos Active Directory](https://user-images.githubusercontent.com/2154886/141669947-08c09a65-9a1b-4248-a8a5-3eaf20fd4211.png)
