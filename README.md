@@ -163,7 +163,7 @@ Para poder seleccionar un disco duro virtual tenemos 2 opciones:
 
 Los discos duros de la galería incluyen Windows Server 2008 Release 2, Windows Server 2008 Release 2 con SQL Server y Windows Server 2012. La galería también contiene imágenes Linux(Suse, Ubuntu). Estos discos se viven actualizando, mas sin embargo al montar una máquina virtual nosotros somos los responsables de las actualizaciones de la misma
 
-![Windows Azure Virtual Machines](https://user-images.githubusercontent.com/2154886/141400022-ef92e598-9e08-4515-8d82-1eed05996357.png)
+![Windows Azure Virtual Machines](https://user-images.githubusercontent.com/2154886/141670060-bf3f07f7-6bc0-4228-951b-8e2cdefb0db7.png)
 
 ![Tamaños de máquinas virtuales](https://user-images.githubusercontent.com/2154886/141400299-abd33629-def1-42c5-a938-23a89c183b68.png)
 
@@ -175,7 +175,7 @@ Para crear una máquina virtual tenemos 2 opciones:
 - **Standalone VMs** Una máquina virtual que se ejecuta de forma independiente. Cada máquina virtual tiene su propia dirección IP pública.
 - **VMs en un Cloud Service** Se ejecutará junto con otras máquinas virtuales. Recomendable para una aplicación de múltiples Niveles (Interfaz Web, Negocio, Base de Datos). Comparten la misma dirección IP pública. Beneficio del Balance de carga de trabajo proporcionado por Windows Azure, permitiendo que las peticiones de los Usuarios sean atendidas por todas las máquinas virtuales en el grupo.
 
-![Agrupamiento de Máquinas Virtuales: Cloud Services](https://user-images.githubusercontent.com/2154886/141400483-d3c582c8-e0a4-40df-8793-d82812cb71bd.png)
+![Agrupamiento de Máquinas Virtuales: Cloud Services](https://user-images.githubusercontent.com/2154886/141670111-95123c1c-5c0c-4624-bb33-e9a25b948cc2.png)
 
 Las Máquinas virtuales en el grupo pueden comunicarse entre ellas sobre la red local del Centro de datos de Windows Azure, de igual forma las MVs en el mismo Cloud Service pueden ser agrupadas en uno o más conjuntos de disponibilidad. Al agrupar las MVs en un  conjunto o grupo de disponibilidad Windows Azure distribuye las máquinas virtuales a través del Centro de Datos para que estas no sean ubicadas en el mismo Servidor o incluso en el mismo Rack de Servidores (en el mismo dominio de fallo), por lo cual si alguno de los Servidores o Rack de Servidores en el Centro de Datos llega a fallar no se vería afectado el funcionamiento del Cloud Service al estar disponible en las otras máquinas virtuales en los otros Servidores físicos (Otro dominio de fallo).
 
