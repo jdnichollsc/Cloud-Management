@@ -39,7 +39,8 @@ Un centro de datos propio implica gastos por la adquisición de activos fijos. G
 
 Los centros de datos son buenos cuando la demanda es alta, pero cuando baja es un desperdicio. El cómputo en la nube elimina gastos de mantenimiento y actualización, por lo tanto se ahorran costos, solo se paga por la renta de espacio de los datos y las aplicaciones.
 
-![Utility Computing](https://user-images.githubusercontent.com/2154886/141396174-51f28ce8-af6d-48ba-9093-3bbe998c604a.png)
+![Utility Computing](https://user-images.githubusercontent.com/2154886/141670005-de778ff4-5fdf-4df3-9fff-04405f74ed01.png)
+
 
 **Utility Computing:** Suministro de recursos computacionales.
 El cómputo en la nube mejora el acceso a las aplicaciones y los datos, mediante el explorador web.
