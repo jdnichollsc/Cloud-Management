@@ -477,3 +477,15 @@ Traffic Manager es una solución para balance de carga de trabajo que permite la
 
 ![Recursos de Traffic Manager](https://user-images.githubusercontent.com/2154886/141666044-cf72e8b0-a774-4571-9bc1-34767f0e68d5.png)
 
+![SQL Server Reporting Services](https://user-images.githubusercontent.com/2154886/141668915-26df953c-f41a-48cc-b600-38b2100c06e3.png)
+
+![SQL Azure Reporting](https://user-images.githubusercontent.com/2154886/141669035-c2a68f09-708f-46db-a22c-64da9ca64f1e.png)
+
+![SSRS vs SQL Azure Reporting](https://user-images.githubusercontent.com/2154886/141669126-8c1291fa-4f9e-40ca-9a64-6b5c8732df8f.png)
+
+![Escenarios para usar SQL Azure Reporting](https://user-images.githubusercontent.com/2154886/141669254-fa91a8ee-80d2-4c17-99c2-6aad32c57d13.png)
+
+![Arquitectura](https://user-images.githubusercontent.com/2154886/141669291-c1a6107d-bc52-4759-8bb2-fc3d71a79631.png)
+
+
+![SSRS vs SQL Azure Reporting](https://user-images.githubusercontent.com/2154886/141669126-8c1291fa-4f9e-40ca-9a64-6b5c8732df8f.png)
